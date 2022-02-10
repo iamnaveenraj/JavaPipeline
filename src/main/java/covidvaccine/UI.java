@@ -32,7 +32,6 @@ class MyFrame extends JFrame implements ActionListener
 	private JLabel email;
 	private JTextField temail;
 	private JButton sub;
-	private JLabel result;
 	
 
 	private String dates[]
@@ -168,7 +167,12 @@ class MyFrame extends JFrame implements ActionListener
 	{
 		if (e.getSource() == sub) 
 		{
-			String dob,name,address,mobno,email,vtype,da = null;
+			String dob;
+			String name;
+			String address;
+			String mobno;
+			String email;
+			String vtype;
 			
 			name = tname.getText();
 			address = tadd.getText();
