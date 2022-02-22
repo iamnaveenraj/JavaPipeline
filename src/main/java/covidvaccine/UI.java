@@ -15,7 +15,8 @@ class UI
 
 class MyFrame extends JFrame implements ActionListener 
 {
-	Container c;
+	private Container c;
+	private Container d;
 	private JLabel title;
 	private JLabel dob;
 	private JComboBox date;
