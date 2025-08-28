@@ -1,5 +1,3 @@
-package covidvaccine;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -7,11 +5,12 @@ import java.sql.*;
 
 class UI
 {
-	public static void main(String[] args) throws Exception
-	{
-		MyFrame();
-	}
+    public static void main(String[] args) throws Exception
+    {
+        new MyFrame();  // show the JFrame
+    }
 }
+
 
 class MyFrame extends JFrame implements ActionListener 
 {
